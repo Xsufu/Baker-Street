@@ -1,0 +1,692 @@
+body{
+    margin: 0;
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    
+    -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+
+/* Container--------------------*/
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+/* Header--------------------*/
+
+.header{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.header_logo{
+    height: 70px;
+    position: absolute;
+    top: 20px;
+}
+
+
+
+/* Nav--------------------*/
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: rgba(215, 61, 108, 1);
+    border-bottom: 2px solid #b7214f;
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
+}
+
+.nav_inner{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav_link{
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+    
+    transition: color .1s linear;
+}
+
+.nav_link:first-child{
+
+}
+
+.nav_link:hover{
+    color: #d9d9d9;
+}
+
+
+
+
+
+/* Intro--------------------*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 248px;
+    
+    background: #31344e url("img/1602867111_34-p-dizain-pekarni-5222.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro_inner{
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.intro_title{
+    margin: 0 0 30px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+
+.intro_subtitle{
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+
+
+
+/* Button--------------------*/
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    
+    font-family: 'Raleway', sans-serif;
+    font-family: inherit;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn--red{
+    background-color: #d73d6c;
+    transition: background .2s linear;
+}
+
+.btn--red:hover{
+    background-color: #b7214f;
+}
+
+.btn--long{
+    min-width: 280px;
+}
+
+
+
+
+/* Features--------------------*/
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    
+}
+
+.features_item{
+    width: 33.33333%;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 25px 0;
+}
+
+.features_icon{
+    margin-bottom: 25px;
+}
+
+.features_title{
+    color: #2d3033;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.features_text{
+    line-height: 1.5;
+    color: #6c7279;
+    font-size: 14px;
+}
+
+
+
+
+/* Works--------------------*/
+
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 3%;
+}
+
+.works_item{
+    width: 48%;
+    
+       margin-right: 1%;
+    margin-bottom: 1%;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    
+
+    border-radius: 5px;
+}
+
+.works_item:nth-child(1){
+
+}
+
+
+.works_item:nth-child(3){
+    height: 260px;
+
+}
+
+.works_item:nth-child(4){
+    height: 240px;
+    width: 23.5%;
+
+}
+
+.works_item:nth-child(5){
+   height: 240px;
+    width: 23.5%;
+}
+
+.works_item:nth-child(6){
+   height: 240px;
+    width: 23.5%;
+
+}
+
+.works_item:nth-child(7){
+   height: 240px;
+    width: 23.5%;
+
+}
+
+.works_item:nth-child(8){
+   height: 260px;
+}
+
+
+.works_item:hover .works_content{
+    opacity: 1;
+}
+
+.works_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    
+    transform: translate3d(-50%, -50%, 0)
+}
+
+.works_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    background-color: rgba(215, 61, 108, .9);
+    opacity: 0;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+    transition: opacity .2s linear;
+}
+
+.works_title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.works_text{
+    color: #fff;
+    font-size: 14;
+}
+
+
+/* Beatiful Background--------------------*/
+.bt_background_1{
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    max-height: 1080px;
+    background-attachment: fixed;
+    background-image: url(img/1626997706_33-kartinkin-com-p-khleb-stolovii-yeda-krasivo-foto-511.jpg);
+}
+
+
+
+/* Beatiful Background--------------------*/
+.bt_background_2{
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    max-height: 1080px;
+    background-attachment: fixed;
+    background-image: url(img/940005c3de7511961f15f183fee9db9073d9b7626f4868025032d04147cb95dcc.jpg);
+}
+
+
+
+/* Products--------------------*/
+.products{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.products_inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products_title{
+    margin: 0 0 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+
+.products_subtitle{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.products_item_link{
+    width: 272px;
+
+    margin: 0 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.products_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 272px;
+    height: 272px;
+    background-color: rgba(215, 61, 108, .9);
+    opacity: 0;
+    padding: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+    transition: opacity .4s linear;
+}
+
+.products_item_link:hover .products_content{
+    opacity: 1;
+}
+
+.products_photo{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.products_name{
+    color: #2d3033;
+    font-size: 22px;
+    
+    margin-bottom: 8px;
+}
+
+.products_price{
+    color: #e84545;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.products_text{
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.products_butt{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    
+    transition: 0.3s linear;
+}
+
+.products_butt:hover{
+    background-color: #1b1b31;
+    color: white;
+    border: 1px solid white;
+}
+
+.products_link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* Order-------------------*/
+
+fieldset{
+    border-radius: 50px;
+    font-size: 18px;
+    border-color: white;
+}
+
+.butt_order{
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 35px;
+    border-width: 0px;
+    background-color: #1b1b31;
+    
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s linear;
+    border: 1px solid black;
+}
+
+.butt_order:hover{
+    background-color: #d73d6c;
+    color: white;
+    border: 1px solid #7cd5dc;
+}
+
+.fld_order{
+    width: 450px;
+    height: 60px;
+    color: #d73d6c;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.intp_order{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+input:nth-child(2), input:focus:first-child{
+        border-width: 0px;
+        outline:0; /* I have also tried outline:none */
+        -webkit-appearance:none;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        background-color: transparent;
+}
+
+.description_order{
+    width: 720px;
+    height: 150px;
+    resize: none;
+    margin: 0 auto;
+}
+
+
+
+/* About Us--------------------*/
+.about_us{
+    
+}
+
+.text_abous_us{
+    color: #6c7279;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 440px;
+}
+
+.img_about_us{
+    width: 500px;
+}
+
+
+/* Social--------------------*/
+
+.social{
+    display: flex; 
+}
+
+.social--footer{
+    justify-content: center; 
+}
+
+.social_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    
+    border: 1px solid #e8ecee;
+    background-color: #fff;
+    
+    transition: background .1s linear;
+}
+
+.social_item:hover{
+    background-color: #e8ecee;
+}
+
+.social_item:hover .social_icon{
+    fill: #d73d6c;
+}
+
+.social--footer .social_item {
+    background-color: transparent;
+    background: none;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 2px;
+    
+    transition: background .1s linear;
+}
+
+.social--footer .social_item:hover{
+    background: #fff;
+}
+
+.social_icon{
+    fill: #fff;
+    height: 18px;
+    display: block;
+    
+    transition: fill .1s linear;
+}
+
+
+
+
+/* Footer--------------------*/
+
+.footer{
+    
+    background-color: #65b2c6;
+    
+}
+
+.footer_inner{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer_block{
+    width: 33.33333%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.footer_title{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer_text{
+    font-size: 14px;
+    color: #fff;
+
+    font-style: normal;
+    line-height: 1.5;
+}
+
+
+
+
+/* Copyright--------------------*/
+
+.copyright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #4f96a9;
+}
+
+.copyright_text{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.copyright_text span{
+    color: #d73d6c;
+    font-weight: 700;
+}
+
+
+
+.map{
+    margin: 0 auto;
+    max-width: 950px;
+    margin-bottom: 40px;
+    margin-top: -40px;
+}
+
+.void{
+    height: 100px;
+}

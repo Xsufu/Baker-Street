@@ -1,0 +1,116 @@
+/* Intro--------------------*/
+
+.intro_prod1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 250px;
+    
+    background: #31344e url("img/prod_bg/prod_bg1.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro_prod2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 250px;
+    
+    background: #31344e url("img/prod_bg/prod_bg2.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro_prod3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 250px;
+    
+    background: #31344e url("img/prod_bg/prod_bg3.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro_prod4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 250px;
+    
+    background: #31344e url("img/prod_bg/prod_bg4.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+.products_item{
+    width: 272px;
+
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
+
+.products_photo1{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Nav--------------------*/
+
+.nav_prod{
+    margin-top: 50px;
+    padding-top: 25px;
+    display: flex;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
+}
+
+.nav_inner_prod{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_link_prod{
+    color: #fff;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+.nav_link:hover{
+    color: #d9d9d9;
+}
+
+.butt_prod_back{
+    display: flex;
+    width: 250px;
+    height: 50px;
+
+    border-radius: 35px;
+    border-width: 0px;
+    background-color: #1b1b31;
+    
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s linear;
+    border: 1px solid black;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.butt_prod_back:hover{
+    background-color: #d73d6c;
+    color: white;
+    border: 1px solid #7cd5dc;
+}
