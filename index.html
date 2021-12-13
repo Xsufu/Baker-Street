@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ActiveBOX</title>
+    <title>Baker Street - Новосибирск</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
 </head>
     
 <body>
@@ -346,6 +347,10 @@
         <h2 class="intro_subtitle" style="color: black; text-align: center;">Для оформления заказа заполните данные ниже
                 </h2>
         
+
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="order.js"></script>
+
         <form id="order-form" action="" method="POST">
             <fieldset class="fld_order">
                  <legend style="margin-left: 20px">Ваша почта</legend>
@@ -373,7 +378,7 @@
             </div>
                     
             <div class="box_butt" style="text-align: center;">
-                <input id="btn" type="button" class="butt_order" value="Отправить заказ">
+                <input id="btn" type="button" class="butt_order" value="Оформить заказ">
             </div>
         </form>
     </div>
@@ -406,7 +411,7 @@
                 <div class="social  social--footer">
                     <a class="social_item" href="#" target="_blank">
                         <svg class="social_icon">
-                            <use xlink:href="#facebook"></use>
+                            <use xlink:href="#linkedin"></use>
                         </svg>
                     </a>
                     <a class="social_item" href="#" target="_blank">
@@ -416,7 +421,7 @@
                     </a>
                     <a class="social_item" href="#" target="_blank">
                         <svg class="social_icon">
-                            <use xlink:href="#linkedin"></use>
+                            <use xlink:href="#facebook"></use>
                         </svg>
                     </a>
                 </div>
@@ -426,8 +431,8 @@
             <!-- F3 -->
             <div class="footer_block">
                 
-                <h4 class="footer_title">О нашей пекарне</h4>
-                <div class="footer_text"><div>Мы уютная семейная пекарня, в которой рады всем и каждому.</div> <div>У нас есть пироги на заказ, пельмени, вареники и манты собственного производства.</div></div>
+                <h4 class="footer_title">Доставка и оплата</h4>
+                <div class="footer_text"><div>Стоимость доставки - 99р, для бесплатной доставки необходимо приобрести товаров на сумму от 700р. Оплатить можно курьеру наличными или по карте.</div></div>
                 
             </div><!-- ./footer_block -->
             
@@ -449,10 +454,7 @@
     </div><!-- ./copyright -->
     
 </footer>
-    
-    
-    
-
+      
 </body>
     
 </html>
